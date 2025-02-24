@@ -74,18 +74,29 @@ The dataset contains the following columns:
 | $16.6       | $16.5       |
 | $16.5       | $16.6       |
 
-## Dependencies
-- Python 3.x
-- Pandas, NumPy, Matplotlib
-- Scikit-learn (for preprocessing)
-- OpenAI Gym (for RL environment)
-- Stable-Baselines3 (for RL algorithms like DQN, PPO)
+## 🛠️ Project Structure
+├── Reinforcement_Learning_project.ipynb # Main Jupyter notebook containing the implementation ├── ppo_model.pkl # Saved model in pickle format ├── ppo_model.zip # Compressed model file └── README.md # Project documentation
 
-## Future Enhancements
-- Improve reward function by adding profitability metrics.
-- Integrate real-world pricing data for better predictions.
-- Experiment with other RL algorithms like SAC or A2C.
 
-## Conclusion
-This RL-based pricing strategy enables businesses to dynamically adjust product prices for maximum sales and profit. By balancing exploration and exploitation, the model ensures optimal pricing without being stuck in historical values.
+## 🎯 Features
+- Implementation of PPO algorithm for price optimization
+- Dynamic pricing strategy learning
+- Market simulation environment
+- Model persistence and portability
+- Interactive Jupyter notebook implementation
 
+## 🔧 Technical Stack
+- Python
+- PyTorch (for deep learning)
+- Stable Baselines3 (for RL implementation)
+- Jupyter Notebook
+- Pandas (for data handling)
+- NumPy (for numerical computations)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.7+
+- Required Python packages:
+  ```bash
+  pip install stable-baselines3 torch numpy pandas jupyter
